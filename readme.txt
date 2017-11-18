@@ -66,6 +66,8 @@ Source: http://fontawesome.io/
 ### 1.0.9
 November 18th, 2017
 * Updated Readme.txt file to the new format for WordPress.org
+* Tested with WordPress 4.9
+* Removed support for WordPress lesser than 4.7
 
 ### 1.0.8
 October 10th, 2017

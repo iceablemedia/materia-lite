@@ -128,20 +128,17 @@ function materia_styles() {
 		$stylesheet = '/css/materia-unresponsive.min.css';
 	endif;
 
-	if ( function_exists( 'get_theme_file_uri' ) ) : // WordPress 4.7
-		/* Child theme support:
-		 * Enqueue child-theme's versions of stylesheet in /css if they exist,
-		 * or the parent theme's version otherwise
-		 */
-		wp_register_style( 'materia', get_theme_file_uri( $stylesheet ), array(), MATERIA_THEME_VERSION );
+	/* Child theme support:
+	 * Enqueue child-theme's versions of stylesheet in /css if they exist,
+	 * or the parent theme's version otherwise
+	 */
+	wp_register_style( 'materia', get_theme_file_uri( $stylesheet ), array(), MATERIA_THEME_VERSION );
 
-		// Enqueue style.css from the current theme
-		wp_register_style( 'materia-style', get_theme_file_uri( 'style.css' ), array(), MATERIA_THEME_VERSION );
+	// Enqueue style.css from the current theme
+	wp_register_style( 'materia-style', get_theme_file_uri( 'style.css' ), array(), MATERIA_THEME_VERSION );
 
-		// Load font-awesome
-		wp_register_style( 'font-awesome', get_theme_file_uri( 'css/font-awesome/css/font-awesome.min.css' ), array(), MATERIA_THEME_VERSION );
-
-	endif;
+	// Load font-awesome
+	wp_register_style( 'font-awesome', get_theme_file_uri( 'css/font-awesome/css/font-awesome.min.css' ), array(), MATERIA_THEME_VERSION );
 
 	wp_enqueue_style( 'materia' );
 	wp_enqueue_style( 'materia-style' );
