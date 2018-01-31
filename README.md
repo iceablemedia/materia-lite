@@ -52,7 +52,7 @@ Materia Lite is the lite version of [Materia Pro](https://www.iceablethemes.com/
 ### Translation
 
 Bundled translations (GPL Licensed):
-* French (fr_FR) translation: Copyright 2017, Iceable Themes (https://www.iceablethemes.com)
+* French (fr_FR) translation: Copyright 2017-2018, Iceable Media - Mathieu Sarrasin (https://www.iceablethemes.com)
 
 Translating this theme into your own language is quick and easy, you will find a .POT file in the /languages folder to get you started. It contains about 80 strings only.
 
@@ -64,7 +64,7 @@ Your translation files will be added to the next update. Don't forget to leave y
 
 ## Copyright
 
-Materia Lite WordPress Theme, Copyright 2017 Iceable Themes (https://www.iceablethemes.com)  
+Materia Lite WordPress Theme, Copyright 2017-2018 Iceable Media - Mathieu Sarrasin (https://www.iceablethemes.com)  
 Materia Lite is distributed under the terms of the GNU GPL
 
 Materia Lite bundles the following third-party resources:
@@ -83,6 +83,10 @@ Source: http://fontawesome.io/
 
 
 ## CHANGELOG
+
+### 1.0.10
+January 31th, 2018
+* Updated copyright
 
 ### 1.0.9
 November 18th, 2017
