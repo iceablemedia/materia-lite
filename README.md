@@ -2,9 +2,9 @@
 
 **Contributors:** iceable  
 **Requires at least:** WordPress 4.7  
-**Tested up to:** WordPress 4.9  
-**Stable tag:** 1.0.9  
-**Version:** 1.0.9  
+**Tested up to:** WordPress 4.9.2  
+**Stable tag:** 1.0.10  
+**Version:** 1.0.10  
 **License:** GPLv2 or later  
 **License URI:** http://www.gnu.org/licenses/gpl-2.0.html  
 **Tags:** one-column, two-columns, right-sidebar, flexible-header, custom-background, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, blog, news, entertainment
