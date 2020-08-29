@@ -56,6 +56,6 @@ endif;
 // Display title
 if ( $materia_title ) :
 	?>
-	<h1 class="page-title"><?php echo esc_html( $materia_title ); ?></h1>
+	<h1 class="page-title"><?php echo wp_kses( $materia_title, 'post' ); ?></h1>
 	<?php
 endif;
