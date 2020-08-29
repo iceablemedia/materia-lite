@@ -3,7 +3,7 @@
  *
  * Materia Lite WordPress Theme by Iceable Themes | https://www.iceablethemes.com
  *
- * Copyright 2017-2019 Iceable Media - Mathieu Sarrasin
+ * Copyright 2017-2020 Iceable Themes - https://www.iceablethemes.com
  *
  * Theme functions
  *
